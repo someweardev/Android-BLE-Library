@@ -431,7 +431,11 @@ public abstract class BleManager<E extends BleManagerCallbacks> extends TimeoutH
 	 * @param context the context.
 	 */
 	public BleManager(@NonNull final Context context) {
-		mContext = context.getApplicationContext();
+		Context appContext = context.getApplicationContext();
+		if (appContext == null) {
+			appContext = context;
+		}
+		mContext = appContext;
 		mHandler = new Handler(Looper.getMainLooper());
 	}
 
