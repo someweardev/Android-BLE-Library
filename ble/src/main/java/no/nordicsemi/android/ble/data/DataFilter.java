@@ -22,7 +22,7 @@
 
 package no.nordicsemi.android.ble.data;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 public interface DataFilter {
 

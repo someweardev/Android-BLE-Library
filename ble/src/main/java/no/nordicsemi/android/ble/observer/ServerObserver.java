@@ -2,7 +2,7 @@ package no.nordicsemi.android.ble.observer;
 
 import android.bluetooth.BluetoothDevice;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import no.nordicsemi.android.ble.BleServerManager;
 
 public interface ServerObserver {

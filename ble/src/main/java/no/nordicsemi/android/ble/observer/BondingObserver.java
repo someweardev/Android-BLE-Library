@@ -3,7 +3,7 @@ package no.nordicsemi.android.ble.observer;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 public interface BondingObserver {
 	/**

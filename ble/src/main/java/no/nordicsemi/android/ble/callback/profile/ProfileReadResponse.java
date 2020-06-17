@@ -26,7 +26,7 @@ import android.bluetooth.BluetoothDevice;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import no.nordicsemi.android.ble.data.Data;
 import no.nordicsemi.android.ble.response.ReadResponse;
 

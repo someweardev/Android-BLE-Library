@@ -1,6 +1,6 @@
 package no.nordicsemi.android.ble;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 abstract class RequestHandler implements CallbackHandler {
 	/**

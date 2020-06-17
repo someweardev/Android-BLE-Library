@@ -29,8 +29,8 @@ import android.bluetooth.BluetoothGattCallback;
 import android.content.Context;
 import android.os.Handler;
 
-import androidx.annotation.IntRange;
-import androidx.annotation.NonNull;
+import android.support.annotation.IntRange;
+import android.support.annotation.NonNull;
 import no.nordicsemi.android.ble.annotation.PhyMask;
 import no.nordicsemi.android.ble.callback.BeforeCallback;
 import no.nordicsemi.android.ble.callback.FailCallback;

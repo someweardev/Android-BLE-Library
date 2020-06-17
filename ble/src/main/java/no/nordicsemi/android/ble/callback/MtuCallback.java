@@ -24,8 +24,8 @@ package no.nordicsemi.android.ble.callback;
 
 import android.bluetooth.BluetoothDevice;
 
-import androidx.annotation.IntRange;
-import androidx.annotation.NonNull;
+import android.support.annotation.IntRange;
+import android.support.annotation.NonNull;
 
 public interface MtuCallback {
 

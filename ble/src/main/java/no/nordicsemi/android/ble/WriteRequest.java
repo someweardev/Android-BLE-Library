@@ -30,9 +30,9 @@ import android.os.Handler;
 
 import java.util.Arrays;
 
-import androidx.annotation.IntRange;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.support.annotation.IntRange;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import no.nordicsemi.android.ble.annotation.WriteType;
 import no.nordicsemi.android.ble.callback.BeforeCallback;
 import no.nordicsemi.android.ble.callback.DataSentCallback;

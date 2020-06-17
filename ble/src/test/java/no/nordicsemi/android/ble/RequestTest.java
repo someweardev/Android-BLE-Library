@@ -29,7 +29,7 @@ import org.junit.Test;
 
 import java.util.UUID;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

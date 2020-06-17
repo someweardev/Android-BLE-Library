@@ -24,7 +24,7 @@ package no.nordicsemi.android.ble.callback;
 
 import android.bluetooth.BluetoothDevice;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import no.nordicsemi.android.ble.annotation.PhyValue;
 
 @SuppressWarnings("unused")

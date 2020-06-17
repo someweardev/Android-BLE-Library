@@ -25,7 +25,7 @@ package no.nordicsemi.android.ble;
 import android.bluetooth.BluetoothDevice;
 import android.os.Handler;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import no.nordicsemi.android.ble.annotation.PhyMask;
 import no.nordicsemi.android.ble.annotation.PhyOption;
 import no.nordicsemi.android.ble.annotation.PhyValue;

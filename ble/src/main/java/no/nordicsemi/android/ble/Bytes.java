@@ -1,7 +1,7 @@
 package no.nordicsemi.android.ble;
 
-import androidx.annotation.IntRange;
-import androidx.annotation.Nullable;
+import android.support.annotation.IntRange;
+import android.support.annotation.Nullable;
 
 final class Bytes {
 
